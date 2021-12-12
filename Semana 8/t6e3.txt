@@ -1,0 +1,7 @@
+Universidad:
++ Aulas:
+
+    Sencillas
+    Multimedia
++ Laboratorios 
++ Auditorios 

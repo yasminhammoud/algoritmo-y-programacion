@@ -1,0 +1,30 @@
+Bienvenido a YouTube Music, te hemos contratado ya que deseamos sacar una versión de nuestra popular 
+aplicación en la terminal, escrita en Python, estarás trabajando en el equipo de Search, tu trabajo 
+es crear un programa que pida al usuario por teclado lo que este quiera buscar, esto pude ser el 
+nombre de una canción o el nombre de un artista/banda, mostraras el resultado y luego deberas 
+preguntar si desea reproducir  la canción, si es así, el programa deberá abrir un link en YouTube
+con la canción.  Información importante:
+
+El algoritmo de busqueda tiene que ser O(Log(n))
+
+El resultado de la búsqueda es la canción que el usuario desea reproducir 
+ (para esto el usuario tendrá que escribir la canción o nombre del artista/banda 
+ exactamente como esta en la db,  pero omitiendo si esta en mayúscula o minúscula
+ lo que esta buscando)
+
+Para abrir el link en YouTube debes usar la liberia  webbrowser
+
+# Ejemplo de uso
+import webbrowser
+
+
+webbrowser.open('https://avilatek.dev/')
+
+Replit quizás no abrirá la pestaña en el browser por lo cual también debes mostrarlo
+ en la consola (el link de YouTube con su id)
+
+El link de YouTube tiene la siguiente estructura
+https://www.youtube.com/watch?v=youtube_id
+
+La estructura de la db esta conformada por el nombre del artista/banda como artist, 
+el nombre de la canción como name, el id de YouTube como youtube_id

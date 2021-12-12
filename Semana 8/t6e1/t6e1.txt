@@ -1,0 +1,9 @@
+La UNIMET te ha contratado para que desarrolles un programa en donde tener 
+una base de datos de sus miembros: profesores y estudiantes. Se desea almacenar
+el nombre, edad, correo y carnet. Adicionalmente para los profesores se desea 
+saber la(s) materia(s) que dicta y a los estudiantes la carrera(s) que estudia(s).
+El sistema deberá poder almacenar la información de cada miembro, poder accederla 
+mediante su correo y poder eliminar miembros ya registrados. 
+
+Deberá usar su conocimiento de programación orientado a objetos y python con el uso de buenas practicas. 
+
